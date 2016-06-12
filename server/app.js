@@ -18,7 +18,7 @@ app.get("/", function(req, res){
 });
 
   app.post('/calculate', urlencodedParser, function( req, res ){
-  res.write( "post received something: " + answer(req.body));
+  res.write( " " + answer(req.body));
   res.end();
 });
 
