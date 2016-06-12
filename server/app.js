@@ -4,7 +4,7 @@ var path = require("path");
 var bodyParser=require('body-parser');
 var urlencodedParser = bodyParser.urlencoded( { extended: false } );
 
-var answer = require("../modules/additionModule.js");
+var answer = require("../modules/mathModule.js");
 
 // TAKE OUT LOCAL HOST FOR HEROKU!!!!
 var server = app.listen (3000, 'localhost', function(){
