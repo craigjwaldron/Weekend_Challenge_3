@@ -1,7 +1,7 @@
 
 var answer = function (incommingObject) {
   console.log("From server: " + incommingObject);
-  
+
   if (incommingObject.select == "add") {
  return Number(incommingObject.first) + Number(incommingObject.second);
   }
