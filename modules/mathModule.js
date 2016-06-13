@@ -15,7 +15,7 @@ var answer = function (incommingObject) {
  return Number(incommingObject.first) / Number(incommingObject.second);
   }
    else {
-    return "Dude, that's impossible with this calulator.";
+    return "Try Again";
   }
 };
 

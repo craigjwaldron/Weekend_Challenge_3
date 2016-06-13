@@ -8,30 +8,37 @@
 
   </head>
   <body>
+    <header><h1>Calculator</h1></header>
 
-    <div class="calulator">
+    <div class="container" id="calculator">
+
       <form class="" name="form" id="form" action="/calculate" method="post">
-        <input type="text" name="first" id="first" value="" placeholder="Enter Value">
-
-          <div class="select">
-              <select name="select" id="select">
-              <option value="hide">--Math--</option>
-              <option value="add" name ="add" id="add">Add</option>
-              <option value="subtract">Subtract</option>
-              <option value="multiply">Multiply</option>
-              <option value="divide">Divide</option>
+          <div>
+            <input type="text" name="first" id="first" value="" placeholder="Enter Number">
+          </div>
+          <div id="select" class="select" style=align: "middle">
+              <select name="select" class="btn btn-primary" id="selectButton">
+                <option value="hide"> -- Choose Math -- </option>
+                <option value="add" name ="add" id="add">Plus</option>
+                <option value="subtract">Minus</option>
+                <option value="multiply">Times</option>
+                <option value="divide">Divided by</option>
             </selct>
           </div>
+          <div>
+            <input type="text" name="second" id="second" value="" placeholder="Enter Number">
+          </div>
 
-        <input type="text" name="second" id="second" value="" placeholder="Enter Number">
-        <input type="submit" name="submit" id="submit" class="btn btn-primary" value="Submit">
-        <input type="reset" name="reset" id="reset" class="btn btn-primary" value="Clear">
+          <div id="buttons">
+            <input type="submit" name="submit" id="submit" class="btn btn-info" value="Equals">
+            <input type="reset" name="reset" id="reset" class="btn btn-danger" value="Clear">
+          </div>
 
+          <div>
+            <input class="sum" id="sum" placeholder="Sum"></input>
+          </div>
       </form>
 
-      <div>
-      <input class="sum" id="sum"></input>
-      </div>
 
     </div>
     <script src="vendors/jquery-2.2.4.min.js" charset="utf-8"></script>

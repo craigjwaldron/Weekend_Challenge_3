@@ -1,3 +1,91 @@
 body {
-  background-color: #b0a18e;
+  background-color: #e3e3e3;
+}
+p {
+  font-size: 20px;
+}
+
+.container {
+  text-align: justify;
+  margin-left: 8em;
+  margin-right: 8em;
+}
+
+header {
+  text-align: justify;
+  letter-spacing: 1px;
+  height: 8em;
+  padding: 2em 10%;
+  background-color: #252839;
+  color: white;
+  border-bottom: solid #f2b632;
+}
+
+header h1 {
+  display: inline-block;
+}
+
+#calculator {
+  padding: 30px;
+  text-align: center;
+  background-color: #252839;
+  margin-top: 130px;
+  height: 400px;
+  border-radius: 10px;
+  width: auto;
+}
+
+#first {
+  margin: 0 auto;
+  padding: 10px;
+
+}
+
+#select {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#second {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#submit {
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  width: 150px;
+}
+
+#reset {
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  width: 150px;
+}
+
+#sum {
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  width: 250px;
+}
+
+#selectButton {
+  margin: 10px;
+  margin-right: 10px;
+  padding: 0px;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+}
+
+#buttons{
+  padding-top: 40px;
+}
+
+input{
+  text-align: center;
+  border-radius: 5px;
 }
