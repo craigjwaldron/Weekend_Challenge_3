@@ -7,7 +7,7 @@ var urlencodedParser = bodyParser.urlencoded( { extended: false } );
 var answer = require("../modules/mathModule.js");
 
 // TAKE OUT LOCAL HOST FOR HEROKU!!!!
-var server = app.listen (3000, 'localhost', function(){
+var server = app.listen (2000, 'localhost', function(){
   var port = server.address().port;
   console.log("Hello from server 3000");
 });
